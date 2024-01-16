@@ -197,6 +197,7 @@
 .choose-us-container{
   padding: 20px;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 .primary-title-two{
   color: #131318;
@@ -222,4 +223,56 @@
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
   text-align: initial;
+}
+    /* style a perfect place section */
+
+.perfect-place-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.perfect-place-content{
+ padding-right: 20px;
+}
+/* styles newsletter section */
+.newsletter-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+ .newsletter-content{
+  width: 474px;
+  height: 422px;
+  align-items: center;
+  text-align: center;
+  border: solid #FF5400;
+
+}
+.newsletter-image{
+  width: 672px;
+  height: 422px;
+  border-radius: 16px;
+  background: linear-gradient (rgba(19, 19, 24, 0.00));
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Rectangle\ 8\ \(1\).png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+
+}
+.newsletter-image-content{
+  width: 324px;
+  height: 120px;
+  transform: translateX(320px) translateY(250px) rotate(-19.628deg);
+  border-radius: 16px;
+  background: #FF5400;
+  align-items: center;
+  text-align: center;
+}
+.transform{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800px;
+  padding: 10px;
 }
