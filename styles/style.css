@@ -61,7 +61,7 @@
   .nav-container-menu a{
     text-decoration: none;
   }
-  .home{
+  .yellow{
     color: #FF5400;
     font-size: 18px;
     font-weight: 800;
@@ -381,7 +381,7 @@
   .checkbtn{
     display: block;
   }
-   ul{
+  .nav-container ul{
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -407,10 +407,10 @@
       background: none;
       color: #0082e6;
     }
-  
+/*   
     check:checked ~ ul{
       left: 0;
-    }
+    } */
     #banner{
       margin: 30px;
     }
@@ -433,13 +433,15 @@
         height: 100%;
         flex-direction: column;
         margin: 30px;
-        align-items: center;
+        align-items: start;
+        text-align: start;
       }
       .popular-tours-container img{
         margin-top: 20px;
         width: 100%;
       }
-      .popular-tours-content bu{
+      .popular-tours-content ul{
+        flex-direction: column;
         align-items: center;
       }
      .destination{
@@ -460,15 +462,22 @@
       display: flex;
       flex-direction: column;
       margin: 30px;
+      align-items: start;
+      text-align: start;
      }
      .perfect-place-container img{
        width: 100%;
        margin-top: 20px;
      }
+     .perfect-place-content h2, p{
+      align-items: start;
+      text-align: start;
+     }
      .newsletter-container{
       display: flex;
       flex-direction: column;
       align-items: center;
+
      }
      .newsletter-content{
       width: 300px;
@@ -481,11 +490,13 @@
      .newsletter-image{
       width: 300px;
       margin-top: 20px;
+      margin-right: 10px;
+      align-items: start;
      }
      .newsletter-image-content{
       width: 250.023px;
       height: 100.268px;
-      transform: translateX(30px) translateY(250px) rotate(-19.628deg);
+      transform: translateX(30px) translateY(270px) rotate(-19.628deg);
       border-radius: 16px;
       background: #FF5400;
       align-items: center;
@@ -500,6 +511,10 @@
       font-size: 26px;
       font-weight: 600px;
       padding: 5px;
+    }
+    #footer{
+      align-items: center;
+      text-align: center;
     }
          
      
