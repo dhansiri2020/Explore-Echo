@@ -58,6 +58,9 @@
   .nav-container-menu li{
     list-style: none;
   }
+  .nav-container-menu a{
+    text-decoration: none;
+  }
   .home{
     color: #FF5400;
     font-size: 18px;
@@ -70,7 +73,7 @@
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/baground.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    /* height: 500px; */
     border-radius: 16px;
     align-items: center;
     text-align: center;
@@ -353,7 +356,110 @@
   height: 24px;
   color: #131318;
  }
+ a.active,a:hover{
+  background: #FF5400;
+  transition: .5s;
+ }
  .end{
   margin-top: 20px;
  }
+ .checkbtn{
+  font-size: 30px;
+  color: rgb(5, 71, 22);
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+ }
+ #check{
+  display: none;
+}
+@media (max-width:600px){
+  
+  
+  .checkbtn{
+    display: block;
+  }
+   ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #131318;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  .nav-container ul{
+    flex-direction: column;
+  }
+  .nav-container-menu ul li{
+   flex-direction: column;
+   
+  }
+  .nav-container-menu ul li a{
+    font-size: 20px;
+  }
+    
+    
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+  
+    check:checked ~ ul{
+      left: 0;
+    }
+    #banner{
+      margin: 30px;
+    }
+    #banner img{
+      width: 100%;
+    }
+                                                  /* banner */
+      .banner-input{
+        flex-direction: column;
+      }
+                                               /* our popular tour */
+      .popular-tours-container{
+        height: 100%;
+        flex-direction: column;
+        margin: 30px;
+        align-items: center;
+      }
+      .popular-tours-container img{
+        margin-top: 20px;
+        width: 100%;
+      }
+      .popular-tours-content bu{
+        align-items: center;
+      }
+     .destination{
+      
+      margin: 30px;
+     }
+     .gallery{
+     display: flex;
+     flex-direction: column;
+     height: 1630px;
+      
+     }
+     #box-5{
+      width: 100%;
+      height: 1630px;
+     }
+     .perfect-place-container{
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+     }
+     .perfect-place-container img{
+       width: 100%;
+       margin-top: 20px;
+     }
+   
+  }
+ 
+ 
 
