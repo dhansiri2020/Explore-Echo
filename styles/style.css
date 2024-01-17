@@ -381,6 +381,15 @@
   .checkbtn{
     display: block;
   }
+  .nav-container-title-heading{
+    font-size: 26px;
+    margin-left: 30px;
+   
+  }
+  .nav-container-title img{
+    width: 40px;
+    padding-left:60px;
+  }
   .nav-container ul{
     position: fixed;
     width: 100%;
@@ -512,10 +521,7 @@
       font-weight: 600px;
       padding: 5px;
     }
-    #footer{
-      align-items: center;
-      text-align: center;
-    }
+   
          
      
    
